@@ -41,19 +41,32 @@ MVP就是正规大餐厅，P则是后厨中心，海绵宝宝做好蟹黄堡后�
 所以这里也可以看出来，MVP最重要的特点就是：
 
 将 Model业务逻辑处理 和 View页面处理 分开！！
+
 3.Java的面向对象的原则（面对接口的编程，保证了业务层与实现层的分离，并且有很好的拓展性）
 
 基于以上3点架构开发的原则，相信对于具体的实现理解就非常的简单了，闲来抽取了简单的架构和大家分享
 项目地址：https://github.com/MyAndroidP/ZQFramework
+
 1.baselibarary（基库）
+
 使用Dagger2实现依赖注入
+
 使用RxJava配合Retrofit2做网络请求
+
 使用MVP架构整个项目
+
 使用Glide做图片的处理和加载
+
 使用RecyclerView实现下拉刷新、上拉加载(刷新使用Google原生swipe)使用
+
 使用Realm做数据库管理
+
 2.H5module（功能模块）
+
 webview 轻量级的封装
+
 提供对外数据调用的接口
+
 3.appmodule（耦合层）
+
 功能模块的整合
