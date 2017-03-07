@@ -1,0 +1,1 @@
+include ':app', ':baselibrary', ':h5library'
