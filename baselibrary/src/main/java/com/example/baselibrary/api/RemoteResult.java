@@ -1,7 +1,7 @@
 package com.example.baselibrary.api;
 
 /**
- * Created by 小鹿 on 2017/2/6.
+ * Created by ZQ on 2017/2/6.
  */
 public class RemoteResult<T> {
     public int code;

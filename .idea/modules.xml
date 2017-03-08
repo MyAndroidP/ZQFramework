@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ZQFramework.iml" filepath="$PROJECT_DIR$/ZQFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h5library/h5library.iml" filepath="$PROJECT_DIR$/h5library/h5library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my11.iml" filepath="$PROJECT_DIR$/my11.iml" />
     </modules>
   </component>
 </project>

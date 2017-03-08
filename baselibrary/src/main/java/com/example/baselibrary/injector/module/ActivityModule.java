@@ -2,14 +2,15 @@ package com.example.baselibrary.injector.module;
 
 import android.content.Context;
 
-import com.sjl.yuehu.injector.scope.ForActivity;
-import com.sjl.yuehu.ui.base.BaseAct;
+
+import com.example.baselibrary.injector.scope.ForActivity;
+import com.example.baselibrary.mvp.base.BaseAct;
 
 import dagger.Module;
 import dagger.Provides;
 
 /**
- * Created by 小鹿 on 2017/2/4.
+ * Created by ZQ on 2017/2/4.
  */
 @Module
 public class ActivityModule {

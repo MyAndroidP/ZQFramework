@@ -1,5 +1,7 @@
 package com.example.baselibrary.api;
 
+import com.example.baselibrary.Constants;
+import com.example.baselibrary.util.ParamsUtil;
 import com.facebook.stetho.common.LogUtil;
 import com.google.gson.Gson;
 import com.google.gson.JsonIOException;
@@ -7,8 +9,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.TypeAdapter;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonWriter;
-import com.sjl.yuehu.Constants;
-import com.sjl.yuehu.util.ParamsUtil;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -32,7 +33,7 @@ import retrofit2.Converter;
 import retrofit2.Retrofit;
 
 /**
- * Created by 小鹿 on 2017/2/8.
+ * Created by ZQ on 2017/2/8.
  */
 public class DefaultConfig {
 

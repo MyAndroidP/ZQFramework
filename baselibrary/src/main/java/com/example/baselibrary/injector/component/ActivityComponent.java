@@ -1,9 +1,8 @@
 package com.example.baselibrary.injector.component;
 
-import com.sjl.yuehu.injector.module.ActivityModule;
-import com.sjl.yuehu.injector.scope.ActivityScope;
-import com.sjl.yuehu.ui.activity.GuiderActivity;
-import com.sjl.yuehu.ui.activity.MainAct;
+
+import com.example.baselibrary.injector.module.ActivityModule;
+import com.example.baselibrary.injector.scope.ActivityScope;
 
 import dagger.Component;
 
@@ -14,7 +13,4 @@ import dagger.Component;
 @Component(dependencies = ApplicationComponent.class, modules = ActivityModule.class)
 public interface ActivityComponent {
 
-    void inject(GuiderActivity guiderActivity);
-
-    void inject(MainAct mainAct);
 }

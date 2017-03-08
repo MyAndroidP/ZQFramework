@@ -2,11 +2,11 @@ package com.example.baselibrary.injector.module;
 
 import android.content.Context;
 
+import com.example.baselibrary.api.ApiService;
+import com.example.baselibrary.injector.scope.ForApplication;
+import com.example.baselibrary.util.CacheUtil;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.sjl.yuehu.api.ApiService;
-import com.sjl.yuehu.injector.scope.ForApplication;
-import com.sjl.yuehu.util.CacheUtil;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -22,7 +22,7 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 
 /**
- * Created by 小鹿 on 2017/2/8.
+ * Created by ZQ on 2017/2/8.
  */
 @Module
 public class ApiModule {

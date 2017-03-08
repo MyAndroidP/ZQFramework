@@ -5,10 +5,9 @@ import android.content.Context;
 import android.os.Build;
 import android.os.StrictMode;
 
+import com.example.baselibrary.injector.component.ApplicationComponent;
+import com.example.baselibrary.injector.module.ApplicationModule;
 import com.facebook.stetho.Stetho;
-import com.sjl.yuehu.injector.component.ApplicationComponent;
-import com.sjl.yuehu.injector.component.DaggerApplicationComponent;
-import com.sjl.yuehu.injector.module.ApplicationModule;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 
@@ -31,9 +30,9 @@ public class App extends Application {
     }
 
     private void setupInjector() {
-        mApplicationComponent = DaggerApplicationComponent.builder().
+      /*  mApplicationComponent = DaggerApplicationComponent.builder().
                 applicationModule(new ApplicationModule(this))
-                .build();
+                .build();*/
     }
 
     private void initLeakCanary() {

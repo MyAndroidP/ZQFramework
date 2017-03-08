@@ -1,7 +1,7 @@
 package com.example.baselibrary.api;
 
 /**
- * Created by 小鹿 on 2017/2/8.
+ * Created by ZQ on 2017/2/8.
  */
 public abstract class SimpleAPICallBack<T>extends AbsAPICallback<T> {
 
