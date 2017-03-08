@@ -1,9 +1,11 @@
 package com.example.h5library;
 
 import android.content.Context;
+import android.content.Intent;
 import android.text.TextUtils;
 
-import comchewuwuyou.mylibrary.Implementation.BaseHtmlcallAndroid;
+import com.example.h5library.Implementation.BaseHtmlcallAndroid;
+
 
 /**
  * Created by ZQ on 2017/3/7.
@@ -30,7 +32,11 @@ public class Html5Client {
             throw new RuntimeException("the url is empty~!");
         }
         Intent intent=new Intent(context,Html5Activity.class);
-        intent.
+        intent.putExtra("url",url);
+        if (bean!=null){
+            intent.putExtra("javascript",bean);
+        }
+        context.startActivity(intent);
     }
 
 

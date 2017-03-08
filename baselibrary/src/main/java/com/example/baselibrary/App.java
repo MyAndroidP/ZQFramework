@@ -6,13 +6,12 @@ import android.os.Build;
 import android.os.StrictMode;
 
 import com.example.baselibrary.injector.component.ApplicationComponent;
-import com.example.baselibrary.injector.module.ApplicationModule;
 import com.facebook.stetho.Stetho;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 
 /**
- * Created by 小鹿 on 2017/1/18.
+ * Created by ZQ on 2017/1/18.
  */
 
 public class App extends Application {

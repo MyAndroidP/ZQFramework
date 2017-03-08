@@ -11,7 +11,8 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.widget.LinearLayout;
 
-import comchewuwuyou.mylibrary.config.Html5WebView;
+import com.example.h5library.config.Html5WebView;
+
 
 public class Html5Activity extends Activity {
 
